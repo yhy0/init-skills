@@ -1,10 +1,11 @@
 {
+  "owner": "yhy0",
   "name": "init-skills",
   "description": "自动扫描项目生成 Claude Code skills：before-modify（修改前检查清单）和 project-structure（项目结构索引），让 Claude 了解你的项目约定，避免重复实现和风格不一致",
   "plugins": [
     {
       "name": "init-skills",
-      "source": "https://github.com/yhy0/init-skills.git"
+      "source": "./"
     }
   ]
 }
